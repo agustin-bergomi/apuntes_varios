@@ -1,3 +1,108 @@
+Threading:
+Se pueden usar los threads de Java o usar librerias como Volley que generan threads al descargar informacion de internet por ejemplo.
+
+Servicios RESTFUL
+
+REST:
+Representational
+State
+Transfer
+
+Significa consumir recursos de internet mediante los metodos del protocolo http (get, post, etc.)
+
+En general se utiliza una API
+
+API:
+Aplication Programming Interface
+
+Las apis permiten acceder a informacion y consumirla mediante un formato especifico.
+
+Algunos sitios web tiene apis que permiten a programadores vincular las aplicaciones a esos datos.
+
+En general se utiliza el metodo get y se obtiene una respuesta en formato JSON
+
+JSON:
+Java Script Object Notation
+
+Es un formato legible por varios lenguajes de programacion mediante el cual se pueden crear objetos y traducirlos a otro lenguaje de programacion.
+
+El formato JSON trabaja con pares de clave-valor.
+Las claves son strings, los valores pueden ser strings, ints, etc.
+
+parseInt
+
+nextInt
+
+Scanner
+
+Creacion de objetos
+
+En general java trabaja mediante clases y su respectiva instanciacion
+
+En Android se suele utilizar alguna clase o varias para crear algun componente o funcionalidad.
+
+Por ejemplo:
+
+Si queremos usar Sqlite encontraremos en la documentacion que se requiere crear una subclase de SQLiteOpenHelper
+
+entonces:
+
+public class MiBaseDeDatos extends SQLiteOpenHelper {}
+
+Amdeas se podria crear un POJO que represente la entidad a guardar en la base de datos.
+
+Transacciones:
+en las bases de datos ocurren transacciones que deben cumplir con integridad y otros requisitos.
+
+close()
+Las bases de datos y recursos del estilo requieren de su cierre con el metodo close() para que no haya problemas
+
+try, catch
+La sentencia try, catch sirve para "atrapar" algunos errores que pueden surgir durante la ejecucion.
+Los errores de compilacion se corrigen durante el debugging.
+
+Un error clasico atrapable por try catch es el IOException
+
+IO se refiere a input /output
+Si el usuario ingresara datos invalidos o que pueden generar problemas se deberia usar un try catch para evitar los problemas
+
+try(IOException e) {
+e.printStackTrace()
+
+}catch{
+
+
+}
+
+
+
+Android:
+componentes:
+
+-content provider
+-broadcast receiver
+-activities
+-services
+
+Services:
+En general no tienen interfaz grafica.
+Una aplicacion que reproduce musica podria funcionar como service mientras se usa otra aplicacion.
+
+
+En Android las aplicaciones tienen activities y las activities tienen un ciclo de vida.
+onCreate
+onResume
+onPause
+onStop
+son los estados principales
+
+Consecuencias/implicancias:
+El SO Android podria finalizar alguna acitvity si necesita memoria. 
+Para determinar que activity finalizar va a tener en consideracion el estado de la activity.
+Nota: los fragments tiene un ciclo de vida especifico.
+
+
+
 Al programar en android tenemos varios conceptos basicos para empezar a trabajar.
 Si queremos hacer una aplicacion que muestre resumenes por ejemplo podemos hacer varias cosas:
 - agregar los resumenes a strings.xml
