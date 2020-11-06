@@ -1,3 +1,55 @@
+
+AWS
+Amazon Web Services
+
+Servicios en la nube como por ejemplo hosting que son escalables automaticamente y de pago por proporcion.
+Esto significa:
+escalable: que puede crecer el tamaño de la aplicacion y su uso. Podrian aumentar por ejemplo la cantidad de registros en base de datos o la cantidad de visitas al servidor.
+Escalable automaticamente:
+Se establece de antemano la posibilidad de escalarlo automaticamente para que si el numero de usuarios aumenta el servidor no se caiga.
+Pago por proporcion:
+si se elige pagar por un servicio basico pero se activa la escalabilidad automatica se ira pagando mas si se usa mas el servicio. En realidad no necesariamente es proporcional el pago a la unidad de uso.
+
+
+
+Jenkins
+Programa para realizar integracion continua
+
+CI
+Continuous integration
+Consiste en agrupar los distintos componentes de la aplicacion de manera que se relaicionen de la manera adecuada.
+
+TDD:
+Test driven development
+Consiste en programar teniendo en cuenta de antemano como se va a testear el codigo
+
+Unit Testing
+Consiste en testear fragmentos de codigo idetnficables por si solos.
+
+Framworks
+
+Comentar el codigo:
+Es bueno comentar el codigo para el programador para comprender lo que se estaba haciendo cuando se lo lee mas adelante y para el equipo de trabajo.
+
+Loops
+
+Se recomienda no anidar demasiados loops. Esto se debe a que la lecutra y comprension se vuelve dificil si hay muchos loops anidados. Ademas es exponencial la cantidad de iteraciones de los loops anidados.
+
+
+
+Librerias android
+
+-Retrofit
+-Volley
+-Okhttp
+-Picasso
+-Jsoup (tambien es para java SE)
+
+Jsoup
+
+Libreria para hacer scraping
+Se establece una conexxion con el sitio web, se identifican los selectores y se obtiene la info.
+
 Threading:
 Se pueden usar los threads de Java o usar librerias como Volley que generan threads al descargar informacion de internet por ejemplo.
 
