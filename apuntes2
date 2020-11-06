@@ -1,0 +1,29 @@
+Clase R
+
+La clase R es generada automaticamente por Android Studio al compilar el programa.
+Identifica con ints a los componentes y recursos de la aplicacion.
+Debido a eso es que es necesario castear al tipo de dato que deberia representar ese int.
+Ejemplo:
+(Button) findViewById(R.id.boton1)
+Si no agregaramos (Button), surge el error:
+provided: int
+required: View.Button...
+
+.findViewById()
+busca el contenido de la clase R mediante el id del view.
+
+.setText()
+con este metodo se puede modificar el texto que contiene un text view.
+
+.append()
+Podemos usar append para agregar contenido a un TextView
+
+.add()
+utilizamos add para agregar objetos a un array list.
+
+Views
+Los views son los componentes/widgets que conforman las aplicaciones Android.
+Existen views que representan botones, layouts, texto e imagenes.
+
+TextViews
+
