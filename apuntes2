@@ -1,4 +1,23 @@
 
+Android programming
+
+Campo editable y savedInstanceState:
+Cuando se "gira" el telfono o table las actividades se reinician
+Al reiniciarse se pierden los datos de los TextViews a menos que se programe lo contrario.
+Sin embargo los campos editables si conservan la informacion ingresada.
+
+Android
+
+Info basica del entorno:
+-Android fue desarrollado por Android inc adquirida por google en 2008 aprox.
+-El primer telfono con Android fue el HTC G1
+-Android forma parte de la open handset alliance
+-Android tiene cada vez mas usuarios. Lo mobile es cada vez mas usado (tables, smartphones).
+-Es un sitema operativo con nucleo linux
+-Utilizaba la dalvik Virtual machine, una JVM diseñada para android
+-Ahora usa ART Android Runtime que tiene mejorada la performance.
+
+
 AWS
 Amazon Web Services
 
