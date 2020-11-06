@@ -1,3 +1,10 @@
+Al programar en android tenemos varios conceptos basicos para empezar a trabajar.
+Si queremos hacer una aplicacion que muestre resumenes por ejemplo podemos hacer varias cosas:
+- agregar los resumenes a strings.xml
+- agregar acitivities con views o un view que se modifique segun tema elegido
+- agregar botones por tema
+
+
 Clase R
 
 La clase R es generada automaticamente por Android Studio al compilar el programa.
