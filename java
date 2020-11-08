@@ -37,4 +37,17 @@ Patrones de diseño
 Maneras de organizar el codigo que se repiten en diferentes programas y frameworks.
 
 Ejemplos:
-Strategy, Factory, Builder, Callback, Singleton, 
+Strategy, Factory, Builder, Callback, Singleton, Adapter.
+
+public class Auto{
+  int velMax;
+  int cantPuertas;
+  String marca;
+  String modelo
+}
+
+public class Mustang extends Auto{
+  velMax = 250;
+}
+
+
