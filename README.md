@@ -23,17 +23,19 @@ ls<br>
 (variacion con detalle)<br>
 ls -l<br>
 
-Comandos git:
+Comandos git:<br>
 Crear repo:<br>
-git init nombre_repo
+git init nombre_repo<br>
 Estatus del repo:<br>
-git status
+git status<br>
 Agregar un archivo a stage<br>
-git add nombre_archivo
-(provoca que el archivo comienze a tener seguimiento)
+git add nombre_archivo<br>
+(provoca que el archivo comienze a tener seguimiento)<br>
 Agregar archivos a stage<br>
 git add .<br>
-Remover archivo del stage:
+
+
+Remover archivo del stage:<br>
 git rm --cached <archivo>
 Agregar archivos a repositorio<br>
 git commit -m "comentario"<br>
